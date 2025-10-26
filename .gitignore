@@ -1,0 +1,96 @@
+# =======================================
+# 🌐 General
+# =======================================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+
+# =======================================
+# 🔒 Environment & Secrets
+# =======================================
+.env
+.env.*
+!example.env
+
+# =======================================
+# 🐍 Python / FastAPI (Backend)
+# =======================================
+# Virtual environments
+backend/venv/
+backend/.venv/
+env/
+ENV/
+
+# Python cache
+backend/__pycache__/
+backend/**/*.pyc
+backend/**/*.pyo
+backend/**/*.pyd
+*$py.class
+
+# Build and dist
+backend/build/
+backend/dist/
+backend/*.egg-info/
+
+# Database (local SQLite only)
+*.db
+*.sqlite3
+
+# Test cache
+backend/.pytest_cache/
+backend/htmlcov/
+backend/.coverage
+
+# =======================================
+# ⚛️ React / Vite (Frontend)
+# =======================================
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+frontend/.DS_Store
+
+# Dependency locks
+frontend/yarn.lock
+frontend/package-lock.json
+frontend/pnpm-lock.yaml
+
+# Cache
+frontend/.vite/
+frontend/.eslintcache/
+
+# =======================================
+# 🧰 IDE / Editors
+# =======================================
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+
+# =======================================
+# 🐳 Docker / Process (Optional)
+# =======================================
+*.pid
+*.seed
+*.pid.lock
+docker-compose.override.yml
+*.tar
+
+# =======================================
+# 🔒 OS / Misc
+# =======================================
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
