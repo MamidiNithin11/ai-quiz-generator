@@ -27,7 +27,7 @@ The frontend (built with **Vite + React + TailwindCSS**) allows users to input a
 | **Database**    | PostgreSQL (Neon Serverless)    |
 | **Environment** | Python 3.10+, Node.js 18+       |
 
----
+--- 
 
 ## 📁 Project Structure
 
