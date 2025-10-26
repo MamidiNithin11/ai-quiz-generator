@@ -127,7 +127,7 @@ Create a `.env` file inside `/backend`:
 DATABASE_URL=postgresql+psycopg2://<username>:<password>@<host>:<port>/<database>
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
-Used Neon App For DataBase:
+Used Neon Console For PostgreSQL DataBase:
 
 <img width="1657" height="880" alt="Screenshot 2025-10-27 001418" src="https://github.com/user-attachments/assets/df6aee8b-36d8-45c7-9469-8ad3165000ab" />
 
