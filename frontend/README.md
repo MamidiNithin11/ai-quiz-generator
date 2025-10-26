@@ -1,20 +1,57 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+## 🌐 Frontend Setup (React + Vite + TailwindCSS)
 
-# Run and deploy your AI Studio app
+### 1️⃣ Create the project
 
-This contains everything you need to run your app locally.
+```bash
+npm create vite@latest frontend
+# Select:
+# - Framework: React
+# - Variant: JavaScript
+cd frontend
+npm install
+```
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+---
 
-## Run Locally
+### 2️⃣ Install additional dependencies
 
-**Prerequisites:**  Node.js
+```bash
+npm install axios
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+```
 
+Update `tailwind.config.js`:
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```js
+content: ["./index.html", "./src/**/*.{js,jsx}"]
+```
+
+Import Tailwind in `index.css`:
+
+```css
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+---
+
+### 3️⃣ Frontend Components
+
+* **GenerateQuizTab.jsx** – Input URL and generate quiz
+* **HistoryTab.jsx** – View all past quizzes
+* **QuizDisplay.jsx** – Display full quiz
+* **Modal.jsx** – Show explanations and details
+* **icons/** – Custom React icons (Loader, Book, Check, etc.)
+* **services/api.js** – Axios API calls to backend
+
+---
+
+### 4️⃣ Frontend API Calls
+
+* **Generate Quiz:** `POST /generate_quiz?url=<Wikipedia_URL>`
+* **Fetch History:** `GET /history`
+* **Fetch Quiz by ID:** `GET /quiz/<id>`
+
+---
