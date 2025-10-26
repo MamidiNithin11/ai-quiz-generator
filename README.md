@@ -129,6 +129,11 @@ GEMINI_API_KEY=your_gemini_api_key_here
 ```
 Used Neon App For DataBase:
 
+<img width="1657" height="880" alt="Screenshot 2025-10-27 001418" src="https://github.com/user-attachments/assets/df6aee8b-36d8-45c7-9469-8ad3165000ab" />
+
+
+
+<img width="1640" height="893" alt="Screenshot 2025-10-27 001432" src="https://github.com/user-attachments/assets/887f40e4-2003-4c71-a9f8-e0699b846e51" />
 
 
 > 🧠 Replace `<username>`, `<password>`, `<host>`, `<port>`, and `<database>` with values from your **Neon Console**. Neon provides a **serverless PostgreSQL database**, so you don’t need local PostgreSQL installation.
@@ -309,55 +314,33 @@ MIT License – free to use, modify, and distribute.
 Developed by **MamidiNithin11**
 Powered by **Gemini AI + FastAPI + React + TailwindCSS**
 
+-## 🧩 Key Features in Action
+
+#### Quiz Home page:
+
+
+<img width="1902" height="963" alt="Screenshot 2025-10-26 021521" src="https://github.com/user-attachments/assets/c98ac581-6164-4e72-9f0d-39989f2eba54" />
+
+
+### 🔹 Generate Quiz
+
+<img width="1893" height="967" alt="Screenshot 2025-10-26 011931" src="https://github.com/user-attachments/assets/54fd0593-5769-4827-855e-882fc7cedfdd" />
+
+
+### Quiz Key Contents
+
+<img width="910" height="954" alt="Screenshot 2025-10-26 012111" src="https://github.com/user-attachments/assets/ecac02a0-20e5-4a54-bd75-9b984816c992" />
+
+#### Quiz Score Based Result :
+
+<img width="1261" height="952" alt="Screenshot 2025-10-26 012140" src="https://github.com/user-attachments/assets/d97dc6a5-a56d-401d-8a85-2a85de76b081" />
+
+### Correct answer with Green and Wrong answer Red after Submission of Quiz:
+<img width="1318" height="962" alt="Screenshot 2025-10-26 012156" src="https://github.com/user-attachments/assets/13e702f3-65c8-4520-b611-2ab237a77855" />
+
+
+### 🔹 View Quiz History
+
+<img width="1414" height="951" alt="Screenshot 2025-10-26 012212" src="https://github.com/user-attachments/assets/c1c63178-1c0e-4c45-9cc5-f7d685ff9e32" />
+
 ---
-outpus:
-
-<img width="1915" height="971" alt="Screenshot 2025-10-26 021429" src="https://github.com/user-attachments/assets/c467f4ea-b4f8-4817-b8b7-452de7ee3e6d" />
-
-_______________________________________________________________________________________________________________________________________________________________
-
-<img width="1902" height="963" alt="Screenshot 2025-10-26 021521" src="https://github.com/user-attachments/assets/e940f35e-d080-4aea-8f09-a5ab86ba5c79" />
-
-_______________________________________________________________________________________________________________________________________________________________
-
-
-
-<img width="1328" height="966" alt="Screenshot 2025-10-26 012001" src="https://github.com/user-attachments/assets/8a60b449-77a5-4147-bebc-aee645107a67" />
-
-_______________________________________________________________________________________________________________________________________________________________
-
-
-
-<img width="1261" height="952" alt="Screenshot 2025-10-26 012140" src="https://github.com/user-attachments/assets/155c0b08-e1ea-4933-9b01-8427a360c1af" />
-
-_______________________________________________________________________________________________________________________________________________________________
-
-
-
-<img width="1318" height="962" alt="Screenshot 2025-10-26 012156" src="https://github.com/user-attachments/assets/41c6bc63-b4cf-454d-b220-11d7e24220a7" />
-
-_______________________________________________________________________________________________________________________________________________________________
-
-
-
-
-<img width="1414" height="951" alt="Screenshot 2025-10-26 012212" src="https://github.com/user-attachments/assets/66a4243e-4c86-47ce-be93-43856b48bc19" />
-_______________________________________________________________________________________________________________________________________________________________
-
-
-
-<img width="1428" height="947" alt="Screenshot 2025-10-26 012232" src="https://github.com/user-attachments/assets/a51c0ce0-05d9-4427-9644-4f382571e3c3" />
-_______________________________________________________________________________________________________________________________________________________________
-
-
-
-<img width="910" height="954" alt="Screenshot 2025-10-26 012111" src="https://github.com/user-attachments/assets/b0fd47d1-4c8d-42ba-9534-d6c6c8395ca7" />
-_______________________________________________________________________________________________________________________________________________________________
-
-
-
-
-<img width="961" height="964" alt="Screenshot 2025-10-26 012100" src="https://github.com/user-attachments/assets/360f78cc-41ae-4daf-b95c-c2d1d95522ad" />
-
-
-
