@@ -1,0 +1,29 @@
+version: "3.9"
+
+services:
+  backend:
+    build: ./backend
+    container_name: aiquiz-backend
+    restart: unless-stopped
+    env_file:
+      - ./backend/.env
+    ports:
+      - "8000:8000"
+    networks:
+      - aiquiznet
+  frontend:
+    build: ./frontend
+    container_name: aiquiz-frontend
+    restart: unless-stopped
+    environment:
+      - VITE_API_URL=http://host.docker.internal:8000   # for Windows/macOS Docker desktop
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    networks:
+      - aiquiznet
+
+networks:
+  aiquiznet:
+    driver: bridge
